@@ -40,7 +40,7 @@ namespace WinFormsApp1
                     button3.Visible = true;
                     button4.Enabled = true;
                     button4.Visible = true;
-                    
+
                     break;
                 default:
                     MessageBox.Show("А вы кто?Уходите!");
@@ -50,6 +50,11 @@ namespace WinFormsApp1
             toolStripStatusLabel1.Text = $"Здравствуйте {AutClass.aut_fio}! Вы вошли как  {AutClass.aut_role_title.ToString()}";
         }
 
-        
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            user_adm user_Adm = new user_adm();
+            user_Adm.ShowDialog();
+        }
     }
 }

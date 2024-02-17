@@ -79,6 +79,7 @@
             button4.Text = "Управление Пользователями";
             button4.UseVisualStyleBackColor = true;
             button4.Visible = false;
+            button4.Click += button4_Click;
             // 
             // statusStrip1
             // 

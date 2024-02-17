@@ -68,6 +68,7 @@
             textBox2.PasswordChar = '*';
             textBox2.Size = new Size(267, 23);
             textBox2.TabIndex = 9;
+            textBox2.Text = "28642864";
             // 
             // label1
             // 
@@ -118,6 +119,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(267, 23);
             textBox1.TabIndex = 8;
+            textBox1.Text = "adm";
             // 
             // autForm
             // 
